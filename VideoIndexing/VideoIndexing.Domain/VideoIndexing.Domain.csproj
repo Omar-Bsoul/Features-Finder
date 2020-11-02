@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.4.0.4061" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\IoCManager\IoCManager.csproj" />
+  </ItemGroup>
+
+</Project>
